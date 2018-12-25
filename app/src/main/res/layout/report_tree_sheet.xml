@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent layout starts -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+<LinearLayout
+        style="@style/LinearLayout.Vertical.Full"
+        android:layout_gravity="center_vertical"
+        android:weightSum="3">
+
+        <!-- Number of Tree layout begins -->
+
+        <LinearLayout
+            style="@style/LinearLayout.Vertical.Wrap"
+            android:paddingBottom="2dp" >
+            <Button
+                style="@style/Button.Select"
+                android:background="@color/colorPrimaryDark"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/report_number_of_tree"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/num_of_tree"
+                style="@style/TextView.Label"
+                android:text="@string/number_of_tree" />
+
+            <EditText
+                android:id="@+id/numb_of_tree"
+                style="@style/EditText.CapWords"
+                android:hint="@string/empty_number_of_tree" />
+        </LinearLayout>
+        <!-- Title layout ends. -->
+
+        <!-- Location layout starts. -->
+
+        <LinearLayout
+            style="@style/LinearLayout.Vertical"
+            android:paddingBottom="2dp" >
+
+            <TextView
+                android:id="@+id/incident_loc"
+                style="@style/TextView.Label"
+                android:text="@string/location" />
+
+            <!-- location name -->
+
+            <EditText
+                android:id="@+id/incident_location"
+                style="@style/EditText.CapWords"
+                android:hint="@string/hint_location"
+                android:enabled="false" />
+
+            <LinearLayout
+                style="@style/LinearLayout.Horizontal"
+                android:paddingTop="8dp" >
+
+                <EditText
+                    android:id="@+id/incident_latitude"
+                    style="@style/EditText.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/latitude"
+                    android:layout_marginRight="2dp"
+                    android:enabled="false"
+                    android:inputType="numberDecimal|numberSigned" />
+
+                <EditText
+                    android:id="@+id/incident_longitude"
+                    style="@style/EditText.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/longitude"
+                    android:layout_marginLeft="2dp"
+                    android:enabled="false"
+                    android:inputType="numberDecimal|numberSigned" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Location layout ends. -->
+
+
+        <!-- Photo layout starts. -->
+
+        <LinearLayout
+            style="@style/LinearLayout.Vertical"
+            android:paddingBottom="2dp" >
+
+            <LinearLayout
+                style="@style/LinearLayout.Horizontal"
+                android:layout_gravity="center"
+                android:paddingLeft="110dp">
+
+                <ImageView
+                    android:id="@+id/sel_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_launcher" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnPicture"
+                style="@style/Button.Select"
+                android:text="@string/add_photo" />
+
+            <Button
+                android:id="@+id/deforest_tree"
+                style="@style/Button.Select"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="SUMMIT DEFORESTATION"
+                android:textColor="#fff" />
+        </LinearLayout>
+        <!-- Photo layout ends. -->
+
+
+
+    </LinearLayout>
+    <!-- Parent layout ends. -->
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iduma.tree_tracking.Activities.AddTree">
+
+    <ImageView
+        android:id="@+id/iv_treeImages"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/treee" />
+
+    <ImageView
+        android:id="@+id/iv_add_tree"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/iv_treeImages"
+        android:layout_alignEnd="@id/iv_treeImages"
+        android:layout_alignRight="@id/iv_treeImages"
+        app:srcCompat="@drawable/ic_photo_camera" />
+
+    <RelativeLayout
+        android:id="@+id/second_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_add_tree"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tv_tree_coordinates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/tv_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tree_coordinates"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:hint="Name of Planter"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etNoTrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_person_name"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box"
+            android:hint="@string/noofTrees"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spTreeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNoTrees"
+            android:layout_marginTop="10dp"
+            android:entries="@array/TreeType"
+            android:background="@drawable/box"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/submit_tree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spTreeType"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/submitbox"
+            android:text="@string/submitTree"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

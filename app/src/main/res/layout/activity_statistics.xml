@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.iduma.tree_tracking.Activities.Statistics">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/planted_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/tvAfforestTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Afforestation Statistics"/>
+
+                <TextView
+                    android:layout_below="@id/tvAfforestTitle"
+                    android:id="@+id/tvEconomicTree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Economic Trees"/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvEconomicTree"
+                    android:id="@+id/tvNoOfTreesP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No of Trees Planted: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesP"
+                    android:layout_below="@id/tvEconomicTree"
+                    android:id="@+id/tvNoOfTrees"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/tvNoOfTrees"
+                    android:id="@+id/tvNEconomicTreeP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Non Economic Trees"/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvNEconomicTreeP"
+                    android:id="@+id/tvNoOfTreesPlanted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No of Trees Planted: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesPlanted"
+                    android:layout_below="@id/tvNEconomicTreeP"
+                    android:id="@+id/tvNoOfTreesN"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:gravity="center">
+            <RelativeLayout
+                android:id="@+id/def_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/tvDeforestationTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Deforestation Statistics"/>
+
+                <TextView
+                    android:layout_below="@id/tvDeforestationTitle"
+                    android:id="@+id/tvEconomicTreeD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Economic Trees"/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvEconomicTreeD"
+                    android:id="@+id/tvNoOfTreesPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No of Trees Reported: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesPD"
+                    android:layout_below="@id/tvEconomicTreeD"
+                    android:id="@+id/tvNoOfEcoTreeReported"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/tvNoOfEcoTreeReported"
+                    android:id="@+id/tvNEconomicTreeD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Non Economic Trees"/>
+                <TextView
+                    android:fontFamily="casual"
+                    android:layout_below="@id/tvNEconomicTreeD"
+                    android:id="@+id/tvNoOfTreesReported"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No of Trees Reported: "/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tvNoOfTreesReported"
+                    android:layout_below="@id/tvNEconomicTreeD"
+                    android:id="@+id/tvNoOfNonEcoReported"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "/>
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/displayAfforestation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Display"
+                    android:layout_below="@+id/tvNoOfNonEcoReported"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

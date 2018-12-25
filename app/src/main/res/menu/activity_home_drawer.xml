@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_add_tree"
+            android:icon="@drawable/ic_affo"
+            android:title="Add Tree" />
+        <item
+            android:id="@+id/nav_report_def"
+            android:icon="@drawable/ic_def"
+            android:title="Report Deforestation" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/stats"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Logout" />
+    </group>
+
+</menu>

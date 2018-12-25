@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "585264794767",
+    "firebase_url": "https://treetracking-1c810.firebaseio.com",
+    "project_id": "treetracking-1c810",
+    "storage_bucket": "treetracking-1c810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585264794767:android:181f0af251d52bd5",
+        "android_client_info": {
+          "package_name": "com.example.iduma.tree_tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585264794767-rn72bjnd4c0ik02v7esrj7qiev2533im.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iduma.tree_tracking",
+            "certificate_hash": "e49b4ddd99cc5a2fa534c8fa44950653b3cb626d"
+          }
+        },
+        {
+          "client_id": "585264794767-4ml5fj5immbgqmilaraq4de9a96igmno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iduma.tree_tracking",
+            "certificate_hash": "ddd41d1ef153c4939a3bc05d68ceff404439546b"
+          }
+        },
+        {
+          "client_id": "585264794767-58f7sfu8dppa502bbcnko7qbpq96fin7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFIpefSPPD_nwgrmmmXFH16RQ5v62RFEw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585264794767-58f7sfu8dppa502bbcnko7qbpq96fin7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
