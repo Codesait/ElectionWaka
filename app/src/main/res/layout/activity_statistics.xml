@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.iduma.tree_tracking.Activities.Statistics">
+    tools:context="com.example.chiemela.election_waka.Activities.Statistics">
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_margin="10dp"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
@@ -32,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="18dp"
-                    android:text="Afforestation Statistics"/>
+                    android:text="Report Statistics"/>
 
                 <TextView
                     android:layout_below="@id/tvAfforestTitle"
@@ -40,14 +41,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="Economic Trees"/>
+                    android:text="Elections "/>
                 <TextView
                     android:fontFamily="casual"
                     android:layout_below="@id/tvEconomicTree"
                     android:id="@+id/tvNoOfTreesP"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No of Trees Planted: "/>
+                    android:text="No of Reports Made: "/>
+
+
+
                 <TextView
                     android:layout_marginLeft="5dp"
                     android:layout_toRightOf="@id/tvNoOfTreesP"
@@ -73,7 +77,7 @@
                     android:id="@+id/tvNoOfTreesPlanted"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No of Trees Planted: "/>
+                    android:text="No of success reports: "/>
                 <TextView
                     android:layout_marginLeft="5dp"
                     android:layout_toRightOf="@id/tvNoOfTreesPlanted"
@@ -177,6 +181,8 @@
         </LinearLayout>
 
     </LinearLayout>
+
+
 
 
 </ScrollView>

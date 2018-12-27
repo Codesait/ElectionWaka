@@ -5,9 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.iduma.tree_tracking.Activities.UserProfile">
+    tools:context="com.example.chiemela.election_waka.Activities.UserProfile">
 
    <RelativeLayout
+       android:id="@+id/relativeLayout1"
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
        <de.hdodenhof.circleimageview.CircleImageView
@@ -37,7 +38,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="User Name"
-           android:textColor="@color/colorGreen"/>
+           android:textColor="@color/colorPrimaryDark"/>
        <TextView
            android:layout_marginLeft="20dp"
            android:layout_marginTop="10dp"
@@ -47,7 +48,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Location"
-           android:textColor="@color/colorGreen"/>
+           android:textColor="@color/colorPrimaryDark"/>
        <TextView
            android:layout_marginLeft="20dp"
            android:layout_marginTop="10dp"
@@ -57,7 +58,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="Total No of Trees planted: "
-           android:textColor="@color/colorGreen"/>
+           android:textColor="@color/colorPrimaryDark"/>
        <TextView
            android:layout_marginLeft="20dp"
            android:layout_marginTop="10dp"
@@ -68,7 +69,15 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="0 "
-           android:textColor="@color/colorGreen"/>
+           android:textColor="@color/colorPrimaryDark"/>
    </RelativeLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_margin="20dp"
+        android:layout_below="@id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"/>
 
 </RelativeLayout>

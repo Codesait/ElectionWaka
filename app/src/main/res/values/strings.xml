@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Tree_tracking</string>
+    <string name="app_name">Election Waka</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_home">Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="noofTrees">No of Trees</string>
-    <string name="submitTree">Report Afforestation</string>
+    <string name="submitReport">Report</string>
 
     <string name="title_activity_report_deforestation">Map</string>
 
@@ -65,10 +65,17 @@
         <item>Organization</item>
     </string-array>
 
-    <string-array name="TreeType">
-        <item>Select the tree type</item>
-        <item>Economic</item>
-        <item>Non Economics</item>
+    <string-array name="ElectionType">
+        <item>Select the election type</item>
+        <item>Primary</item>
+        <item>General</item>
+    </string-array>
+
+    <string-array name="Help">
+        <item>Use this field only when in trouble</item>
+        <item>Police harassment</item>
+        <item>Fight</item>
+        <item>Ballot box stolen</item>
     </string-array>
 
     <string-array name="Country">

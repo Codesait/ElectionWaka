@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.iduma.tree_tracking.Activities.SignUp">
+    tools:context="com.example.chiemela.election_waka.Activities.SignUp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                 android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#6E2C90"
+                android:background="@color/colorPrimaryDark"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -110,7 +110,7 @@
                     android:id="@+id/imgView_userIcon2"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/img_user"
                     android:tint="@color/white" />
@@ -143,7 +143,7 @@
                     android:id="@+id/imgView_userIcon3"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/img_user"
                     android:tint="@color/white" />
@@ -175,7 +175,7 @@
                     android:id="@+id/imgView_emailIcon"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/img_email"
                     android:tint="@color/white" />
@@ -211,7 +211,7 @@
                     android:id="@+id/imgView_passwordIcon4"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/img_authentication"
                     android:tint="@color/white" />
@@ -245,7 +245,7 @@
                     android:id="@+id/imgView_passwordIcon5"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/gender"
                     android:tint="@color/white" />
@@ -278,7 +278,7 @@
                     android:id="@+id/imgView_passwordIcon6"
                     android:layout_width="40dp"
                     android:layout_height="45dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:padding="8dp"
                     android:src="@drawable/account"
                     android:tint="@color/white" />
@@ -345,7 +345,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
-                android:background="#6E2C90"
+                android:background="#fda422"
                 android:fontFamily="sans-serif-medium"
                 android:text="SIGN UP"
                 android:textColor="@color/white" />

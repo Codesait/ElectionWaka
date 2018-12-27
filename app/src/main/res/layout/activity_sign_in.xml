@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.iduma.tree_tracking.Activities.SignIn">
+    tools:context="com.example.chiemela.election_waka.Activities.SignIn">
 
 
         <android.support.v7.widget.CardView
@@ -28,7 +28,7 @@
                     android:id="@+id/linearLayout1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -72,7 +72,7 @@
                             android:textStyle="bold"
                             android:padding="5dp"
                             android:background="@color/white"
-                            android:textColor="#6E2C90"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textSize="20sp" />
 
                     </LinearLayout>
@@ -103,7 +103,7 @@
                         android:id="@+id/imgView_userIcon"
                         android:layout_width="40dp"
                         android:layout_height="50dp"
-                        android:background="#6E2C90"
+                        android:background="@color/colorPrimaryDark"
                         android:padding="8dp"
                         android:src="@drawable/phone_number"
                         android:tint="@color/white" />
@@ -136,7 +136,7 @@
                         android:id="@+id/imgView_passwordIcon4"
                         android:layout_width="40dp"
                         android:layout_height="50dp"
-                        android:background="#6E2C90"
+                        android:background="@color/colorPrimaryDark"
                         android:padding="8dp"
                         android:src="@drawable/img_authentication"
                         android:tint="@color/white" />
@@ -166,7 +166,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginTop="30dp"
-                    android:background="#6E2C90"
+                    android:background="@color/colorPrimaryDark"
                     android:fontFamily="sans-serif-medium"
                     android:text="Login"
                     android:textColor="@color/white" />
@@ -180,7 +180,7 @@
                    android:gravity="center"
                    android:layout_marginTop="30dp"
                    android:textStyle="bold|italic"
-                   android:textColor="#6E2C90"/>
+                   android:textColor="@color/colorPrimaryDark"/>
 
             </RelativeLayout>
 

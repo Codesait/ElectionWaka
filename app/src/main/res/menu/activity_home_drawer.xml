@@ -7,12 +7,9 @@
 
         <item
             android:id="@+id/nav_add_tree"
-            android:icon="@drawable/ic_affo"
-            android:title="Add Tree" />
-        <item
-            android:id="@+id/nav_report_def"
-            android:icon="@drawable/ic_def"
-            android:title="Report Deforestation" />
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Report with camera" />
+
         <item
             android:id="@+id/nav_statistics"
             android:icon="@drawable/stats"
@@ -23,8 +20,22 @@
             android:title="Profile" />
         <item
             android:id="@+id/nav_logout"
-            android:icon="@drawable/ic_sign_out"
+            android:icon="@drawable/ic_settings_power_"
             android:title="Logout" />
+
     </group>
+
+
+    <item android:title="Advanced">
+        <menu>
+
+
+        <item
+            android:id="@+id/nav_report_def"
+            android:icon="@drawable/ic_video_call"
+            android:title="Report with video" />
+
+        </menu>
+    </item>
 
 </menu>
