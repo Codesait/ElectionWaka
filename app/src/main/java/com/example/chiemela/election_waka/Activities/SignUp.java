@@ -79,10 +79,7 @@ public class SignUp extends AppCompatActivity {
 
                 login.setTextColor(getResources().getColor(R.color.white));
 
-                Intent intent = new Intent(SignUp.this, SignIn.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
+                Intent intent = new Intent(git
             }
         });
 
